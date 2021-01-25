@@ -108,14 +108,41 @@
   .wrapper ul li{
     font-size: 18px;
   }
-  .factsaboutladybugs li{
-    padding-bottom: 20px;
+}
+@media only screen and (min-width: 1200px) {
+
+  .header-menu {
+    font-size: 30px;
   }
-  .footer {
-    color: white;
+  
+  .gallery {
     margin-top: 50px;
-    bottom: 0;
-    text-align: center;
-    font-family: 'Comfortaa', cursive;
+  }
+  .gallery img {
+    width: 70%;
+    margin-top: 30px;
+  }
+  .wrapper {
+    margin-top: 70px;
+    width: 60%;
+  }
+  .wrapper p {
+    font-size: 23px;
+  }
+  .wrapper ul li{
+    font-size: 23px;
+  }
+}
+@media only screen and (min-width: 1800px) {
+
+  .header h1{
+    font-size: 70px;
+  }
+
+  .gallery {
+    margin-top: 100px;
+  }
+  .gallery img {
+    width: 50%;
   }
 }
