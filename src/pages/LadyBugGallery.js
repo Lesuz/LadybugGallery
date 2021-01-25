@@ -10,12 +10,12 @@ function LadyBugGallery() {
     return (
       <div>
         <div className="gallery">
-          <img src={ladybug1}></img>
-          <img src={ladybug2}></img>
-          <img src={ladybug3}></img>
-          <img src={ladybug4}></img>
-          <img src={ladybug5}></img>
-          <img src={ladybug6}></img>
+          <img src={ladybug1} alt="ladybug 1"></img>
+          <img src={ladybug2} alt="ladybug 2"></img>
+          <img src={ladybug3} alt="ladybug 3"></img>
+          <img src={ladybug4} alt="ladybug 4"></img>
+          <img src={ladybug5} alt="ladybug 5"></img>
+          <img src={ladybug6} alt="ladybug 6"></img>
         </div>
       </div>
     );

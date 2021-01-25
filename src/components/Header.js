@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Link, Route} from 'react-router-dom';
+
 
 import Navigation from './Navigation';
 import ladybug from '../img/ladybug.png';
