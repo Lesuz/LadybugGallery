@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 
 /* box-sizing allows to inlcude teh padding and border in the total width and height*/
 * {
@@ -12,9 +14,11 @@
   width: 100%;
   margin: auto;
   height: auto;
+  font-family: 'Balsamiq Sans', cursive;
 }
 .header h1{
   color: rgb(60, 148, 82);
+  font-size: 50px;
 }
 .nav {
   width: 100%;
@@ -60,16 +64,58 @@
   height: auto;
   margin-top: 10px;
   border-radius: 3px;
+  transition: transform .2s;
+}
+.gallery img:hover {
+  transform: scale(1.05);
 }
 .wrapper {
   margin-left: 20px;
   margin-right: 20px;
   text-align: center;
   color: white;
+  font-family: 'Comfortaa', cursive;
+}
+.factsaboutladybugs li{
+  padding-bottom: 20px;
 }
 .footer {
   color: white;
   margin-top: 50px;
   bottom: 0;
   text-align: center;
+  font-family: 'Comfortaa', cursive;
+}
+
+@media only screen and (min-width: 600px) {
+
+  .header-menu {
+    font-size: 25px;
+  }
+  
+  .gallery {
+    margin-top: 30px;
+  }
+  .wrapper {
+    margin-top: 50px;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .wrapper p {
+    font-size: 18px;
+  }
+  .wrapper ul li{
+    font-size: 18px;
+  }
+  .factsaboutladybugs li{
+    padding-bottom: 20px;
+  }
+  .footer {
+    color: white;
+    margin-top: 50px;
+    bottom: 0;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+  }
 }
