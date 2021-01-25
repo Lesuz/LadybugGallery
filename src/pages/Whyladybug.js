@@ -23,10 +23,10 @@ function Whyladybug() {
           <li>Ladybugs colouring indicates to predators that they don’t taste good</li>
           <li>Farmers had named the ladybug “beetle of Our Lady” because it helped right against other invading and harmful insects</li>
         </ul>
-        <p>All information is collected from <a href="https://en.wikipedia.org/wiki/Coccinellidae" target="_blank">Wikipedia</a> and <a href="https://kids.nationalgeographic.com/animals/invertebrates/insects/ladybug/" target="_blank">National Greopgraphic Kids</a>.</p>
+        <p>All information is collected from <a href="https://en.wikipedia.org/wiki/Coccinellidae" target="_blank" rel="noreferrer">Wikipedia</a> and <a href="https://kids.nationalgeographic.com/animals/invertebrates/insects/ladybug/" target="_blank" rel="noreferrer">National Greopgraphic Kids</a>.</p>
         <h3>Why was this website made?</h3>
         <p>
-          This website is made as a project of Susanna Hämäläinen, so she can grow her portfolio. Her website can be found at <a target="_blank" href="https://www.susannahamalainen.com/">susannahamalainen.com</a>.
+          This website is made as a project of Susanna Hämäläinen, so she can grow her portfolio. Her website can be found at <a target="_blank" href="https://www.susannahamalainen.com/" rel="noreferrer">susannahamalainen.com</a>.
         </p>
       </div>
       
