@@ -1,9 +1,5 @@
 import { Link} from 'react-router-dom';
 
-import LadyBugGallery from '../pages/LadyBugGallery';
-import Whyladybug from '../pages/Whyladybug';
-import Aboutartist from '../pages/Aboutartist';
-
 function Nav() {
   return (
         <div className="nav">
