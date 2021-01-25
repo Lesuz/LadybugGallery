@@ -1,7 +1,6 @@
 
 
 import Navigation from './Navigation';
-import ladybug from '../img/ladybug.png';
 
 function Header() {
   return (
