@@ -1,11 +1,11 @@
 
-
-import Navigation from './Navigation';
+import './Header.css'
+;import Navigation from './Navigation';
 
 function Header() {
   return (
     <div className="header">
-        <h1>Lady Bugs</h1>
+        <h1>Ladybugs</h1>
         <Navigation/>
     </div>
   );

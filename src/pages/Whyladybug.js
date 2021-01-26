@@ -2,7 +2,7 @@
 function Whyladybug() {
     return (
       <div className="wrapper">
-        <h1>Why Lady Bugs?</h1>
+        <h1>Why Ladybugs?</h1>
         <p>Ladybug (<em>Coccinellidae</em>) is a small beetle which many recognize. Unlike what the name tells us, 
           ladybugs are not classified as true bugs and are therefore called ladybird beetles or lady beetles 
           in the study of insects.
@@ -21,7 +21,7 @@ function Whyladybug() {
           <li>They can be found almost all over the world</li>
           <li>Ladybugs are considered good luck in many cultures</li>
           <li>Ladybugs colouring indicates to predators that they don’t taste good</li>
-          <li>Farmers had named the ladybug “beetle of Our Lady” because it helped right against other invading and harmful insects</li>
+          <li>Farmers had named the ladybug “beetle of Our Lady” because it helped fight against other invading and harmful insects</li>
         </ul>
         <p>All information is collected from <a href="https://en.wikipedia.org/wiki/Coccinellidae" target="_blank" rel="noreferrer">Wikipedia</a> and <a href="https://kids.nationalgeographic.com/animals/invertebrates/insects/ladybug/" target="_blank" rel="noreferrer">National Greopgraphic Kids</a>.</p>
         <h3>Why was this website made?</h3>

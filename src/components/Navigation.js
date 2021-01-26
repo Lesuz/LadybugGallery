@@ -1,4 +1,5 @@
 import { Link} from 'react-router-dom';
+import './Navigation.css'
 
 function Nav() {
   return (
@@ -8,7 +9,7 @@ function Nav() {
                     <li>Gallery</li>
                 </Link>
                 <Link to="/pages/Whyladybug" className="header-menu-link-center">
-                    <li>Why Lady Bugs?</li>
+                    <li>Why Ladybugs?</li>
                 </Link>
                 <Link to="/pages/Aboutartist" className="header-menu-link">
                     <li>About Artist</li>
