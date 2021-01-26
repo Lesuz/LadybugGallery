@@ -1,97 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import "~react-image-gallery/styles/css/image-gallery.css";
 
 /* box-sizing allows to inlcude teh padding and border in the total width and height*/
 * {
   box-sizing: border-box;
-  background-color: black;
+  background-color: #ecd485;
 }
-/*header styling*/
-.header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  margin: auto;
-  height: auto;
-  font-family: 'Balsamiq Sans', cursive;
-}
-.header h1{
-  color: rgb(60, 148, 82);
-  font-size: 50px;
-}
-.nav {
-  width: 100%;
-  text-align: center;
-}
-.header-menu {
-  display: flex;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-decoration: none;
-}
-.header-menu-link {
-  color: rgb(60, 148, 82);
-  background-color: black;
-  padding: 10px;
-  width: 30%;
-  text-decoration: none;
-}
-.header-menu-link:hover {
-  background-color: rgb(31, 53, 36);
-  color: rgb(82, 201, 112);
-}
-.header-menu-link-center {
-  color: rgb(60, 148, 82);
-  padding: 10px;
-  width: 40%;
-  text-decoration: none;
-}
-.header-menu-link-center:hover {
-  background-color: rgb(31, 53, 36);
-  color: rgb(82, 201, 112);
-}
-
 .gallery {
   width: 100%;
+  margin-top: 30px;
 }
-.gallery img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 95%;
-  height: auto;
-  margin-top: 10px;
-  border-radius: 3px;
-  transition: transform .2s;
-}
-.gallery img:hover {
-  transform: scale(1.05);
+.image-gallery-icon {
+  color: #2e4420;
 }
 .wrapper {
-  margin-left: 20px;
-  margin-right: 20px;
+  margin: 50px 20px;
   text-align: center;
-  color: white;
+  color: #2e4420;
   font-family: 'Comfortaa', cursive;
 }
 .factsaboutladybugs li{
   padding-bottom: 20px;
 }
-.footer {
-  color: white;
-  margin-top: 50px;
-  bottom: 0;
+.socialmedia{
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
   text-align: center;
-  font-family: 'Comfortaa', cursive;
 }
-
+.socialmedia svg{
+  height: 3em;
+  width: 3em;
+}
 @media only screen and (min-width: 600px) {
-
-  .header-menu {
-    font-size: 25px;
-  }
   
   .gallery {
     margin-top: 30px;
@@ -110,39 +54,42 @@
   }
 }
 @media only screen and (min-width: 1200px) {
-
-  .header-menu {
-    font-size: 30px;
-  }
   
   .gallery {
     margin-top: 50px;
-  }
-  .gallery img {
     width: 70%;
-    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .wrapper {
     margin-top: 70px;
-    width: 60%;
+    width: 70%;
+  }
+  .wrapper h3 {
+    margin-top: 90px;
+    font-size: 25px;
   }
   .wrapper p {
-    font-size: 23px;
+    text-align: left;
+    font-size: 18px;
   }
   .wrapper ul li{
-    font-size: 23px;
+    font-size: 18px;
+    text-align: left;
   }
 }
 @media only screen and (min-width: 1800px) {
 
-  .header h1{
-    font-size: 70px;
-  }
-
   .gallery {
-    margin-top: 100px;
+    margin-top: 50px;
+    width: 60%;
   }
-  .gallery img {
-    width: 50%;
+  .wrapper p {
+    text-align: left;
+    font-size: 20px;
+  }
+  .wrapper ul li{
+    font-size: 20px;
+    text-align: left;
   }
 }

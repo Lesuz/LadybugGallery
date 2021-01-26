@@ -1,0 +1,33 @@
+.nav {
+    width: 100%;
+    text-align: center;
+  }
+  .header-menu {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+  .header-menu-link {
+    color: #823038;
+    padding: 10px;
+    width: 30%;
+    text-decoration: none;
+  }
+  .header-menu-link:hover {
+    border-radius: 3px;
+    background-color: #c5ad60;
+    color: #556F44;
+  }
+  .header-menu-link-center {
+    color: #823038;
+    padding: 10px;
+    width: 40%;
+    text-decoration: none;
+  }
+  .header-menu-link-center:hover {
+    border-radius: 3px;
+    background-color: #c5ad60;
+    color: #556F44;
+  }
