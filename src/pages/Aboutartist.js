@@ -6,25 +6,22 @@ function Aboutartist() {
       <div className="wrapper"> 
         <h1>About Artist</h1>
         <div className="aboutartist">
-          <p>I am Ronja Holopainen, a mostly self-taught artist. Art is my passion. Feel free to follow me on 
-            social media.
-            
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pretium, arcu eget scelerisque 
-            fringilla, ligula felis dapibus nibh, nec gravida tortor ipsum vitae nisi. Morbi tristique interdum 
-            eleifend. Vestibulum ipsum turpis, viverra quis metus ornare, mattis eleifend tellus. Sed ut ligula 
-            dui. Aenean ut massa pulvinar, mattis purus id, hendrerit risus. Nullam commodo enim sit amet 
-            aliquam suscipit. In hac habitasse platea dictumst. Fusce in lorem ut velit vehicula venenatis 
-            quis sit amet leo. Aliquam sit amet neque mi. Morbi et convallis lacus. Donec leo massa, eleifend 
-            vitae risus in, ultricies bibendum magna. Quisque molestie est quis turpis maximus, in volutpat 
-            tortor rhoncus. Mauris pulvinar viverra mauris non lobortis. Phasellus mauris dolor, tempus nec 
-            lorem et, dapibus sodales nisl. Suspendisse bibendum, diam quis venenatis maximus, enim libero
-            congue ex, quis mattis nisl arcu in metus. Sed convallis viverra tellus, vitae posuere purus 
-            facilisis sit amet.
+          <p>
+            I’m Ronja Holopainen, a Finnish art hobbyist with a passion for digital drawing. I’ve been into 
+            creating art ever since I knew how to dip my fingers into paint, and have studied it in small 
+            after-school classes for the better half of my childhood. Still, I mostly consider myself a 
+            self-taught artist; I enjoyed drawing way more at home than in class, and my love for digital 
+            creating blossomed (and evolved) all on its own.
+          </p>
+          <p>
+            I learn every day and art isn’t an exception. My comfort zones lay in characters and fantasy 
+            elements, experimenting with colors and visual effects - but I’m always willing to try new things 
+            and better my craft both within and outside of what I’m used to. But more importantly, I 
+            try to have fun with what I do. Even if learning includes struggle, it’s nothing compared to 
+            the amazing feeling of creating and looking onto your own finished work.
           </p>
           <img src={profilepic}></img>
           </div>
-        
-        
         <div className="socialmedia">
           <a href="https://www.instagram.com/riimedoesart/" rel="noreferrer" target="_blank" >
             <FiInstagram />
