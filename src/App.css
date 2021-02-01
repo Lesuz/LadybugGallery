@@ -5,7 +5,9 @@
 /* box-sizing allows to inlcude teh padding and border in the total width and height*/
 * {
   box-sizing: border-box;
-  background-color: #ecd485;
+  background-image: url('./img/background.jpg');
+  background-attachment: fixed;
+  background-size: cover;
 }
 .gallery {
   width: 100%;
